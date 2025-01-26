@@ -57,7 +57,7 @@ PORT=3000
 |--------|---------------------------|------------------------------------------------------------------|
 | GET    | `/gadgets`                | Retrieve all gadgets (excludes `Decommissioned` by default)     |
 | GET    | `/gadgets?status={status}`| Retrieve gadgets filtered by status                              |
-| POST   | `/gadgets/add`                | Add a new gadget (admin only)                                    |
+| POST   | `/gadgets/add`                | Add a new gadget                                    |
 | PATCH  | `/gadgets/:id`            | Update a gadget (admin only)                                     |
 | DELETE | `/gadgets/:id`            | Mark a gadget as `Decommissioned` (admin only)                  |
 | POST   | `/gadgets/:id/self-destruct`| Trigger self-destruct for a gadget                              |
